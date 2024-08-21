@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/506c3e7b-2ab5-46b2-9bd5-3829edd7f54f/resourceGroups/minha-app_group/providers/microsoft.insights/components/minha-app</ApplicationInsightsResourceId>
+    <UserSecretsId>7c5ac4aa-c02f-4869-a014-e39992cf95f8</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
