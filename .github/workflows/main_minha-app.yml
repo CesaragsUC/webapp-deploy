@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Navigate to project directory
-        run: cd D:\a\webapp-deploy\webapp-deploy
+        run: cd D:\a\webapp-deploy\webapp-deploy # tive que add o path hardcode, pois estava dando erro
 
       - name: Restore dependencies
         run: dotnet restore
