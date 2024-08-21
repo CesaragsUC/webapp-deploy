@@ -28,6 +28,12 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult DeploySlot()
+    {
+        return View();
+
+    }
+
     public IActionResult LancarErro()
     {
         throw new Exception("Teste de erro Aplication Insight.");
