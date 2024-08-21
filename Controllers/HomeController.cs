@@ -18,7 +18,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewData["Grretings"] = _configuration["Greetings:Message"];
+        ViewData["Greetings"] = _configuration["Greetings:Message"];
 
         return View();
     }
